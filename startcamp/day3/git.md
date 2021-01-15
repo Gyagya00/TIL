@@ -103,6 +103,12 @@ $ git remote add gitlab {gitlab url}
 
 $ git push github master
 $ git push gitlab master
+
+$ git remote set-url origin {github url}
+# url 변경 <- git push 에러
+
+$ git remote rm origin 
+# remote origin 삭제 <- fatal: remote origin already exists 에러
 ```
 
 * 원격 저장소(`remote`)로 `origin`이라는 이름을 가진 `github url`을 등록(`add`)한다. 
