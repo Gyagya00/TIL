@@ -131,3 +131,18 @@ $ git push origin master
 
 * `origin`이라는 이름으로 설정된 원격 저장소에 `master` 브랜치를 업로드(`push`)
 * 이후 변경사항이 생길 때마다 `add` -> `commit` -> `push` 순으로 작업을 수행한다.
+
+### 3. 4 `Clone / Pull`
+
+```
+$ git clone {url}
+```
+
+* 처음으로 레포지토리를 당겨올 때
+
+```
+$ git remote add origin {url}
+$ git pull origin master
+```
+
+* 추가된 사항을 땡겨오기
