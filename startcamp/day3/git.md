@@ -146,3 +146,13 @@ $ git pull origin master
 ```
 
 * 추가된 사항을 땡겨오기
+
+### Gitignore / Readme
+```
+touch gitignore
+```
+
+gitginore.io에서 업로드 안 할 파일 생성해서 복붙
+```
+touch readme.me
+```
