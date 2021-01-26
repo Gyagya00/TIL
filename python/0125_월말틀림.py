@@ -72,4 +72,11 @@ for age in ages:
         continue # pass와의 차이는 pass는 자리만 채움 continue는 이후 코드를 실행하지 않는다.
     print(f'{age}살은 성인입니다.')
 
+# 피보나치 반복문
+
+def fibo(n):
+    a , b = 1, 1
+    for _ in range(n-1):
+        a, b = b, a + b
+    return b
 
