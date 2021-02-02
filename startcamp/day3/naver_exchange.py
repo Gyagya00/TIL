@@ -10,7 +10,7 @@ url = 'https://finance.naver.com/marketindex/'
 
 # 3. 요청 보내기
 response = requests.get(url).text
-# print(type(response))
+print(type(response))
 
 # 4. 응답받은 값을 추출하기 쉬운 형태로 구조화 (예쁘게 만들기)
 soup = BeautifulSoup(response, 'html.parser')
